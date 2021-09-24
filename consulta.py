@@ -32,7 +32,8 @@ if registro == 0:
      cursor.execute('Select* from c_diabetes')
      resultado = cursor.fetchall()
      for registro in resultado:
-         print(f"Nome:{registro[0]}\nTelefone: {registro[1]}")
+         print(f"Nome:{registro[0]}\nTelefone: {registro[1]} RG:{registro[2]}  Destro: {registro[6]}    ")
+         print('='*62)
      conexão.commit()
      cursor.close()
      conexão.close()
