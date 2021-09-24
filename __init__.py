@@ -8,7 +8,7 @@ class Bvsmatrix:
         self.trabalhando=t
         self.indicado=i
     def mostrar(self):
-        print('Professor: JOSÉ ALBERTO RODRIGUES VERSÃO 1.0.3 19/04/2021:')
+        print('Professor: JOSÉ ALBERTO RODRIGUES VERSÃO 1.0.3 24/09/2021:')
         print('Projetos no site do ava & sae..: https://github.com/professorjar')
         print('Funcionário....................: ' + str(self.funcionario))
         estado = 'sim' if self.trabalhando else 'Não'
