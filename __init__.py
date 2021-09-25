@@ -17,5 +17,5 @@ class Bvsmatrix:
         print('Indicado.............................: ' + (self.indicado))
         print('Projetos..: https://professorjar.github.io/gerenciamentodeprojetos/index.html')
         print('=' *100)
-fu1=Bvsmatrix(778,False,'Sim,por Morpheus')
+fu1=Bvsmatrix(927,False,'Sim,por Morpheus')
 fu1.mostrar()
